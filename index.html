@@ -1,46 +1,28 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 <head>
-  <title>Rick and Morty Character Search</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rick and morty API</title>
 </head>
 <body>
   <header>
-    <h1>Rick and Morty Character Search</h1>
-    <!-- Aquí puedes agregar cualquier otro contenido para el encabezado -->
+    <h2>SDE Full Stack - Phase 1 Project</h2>
+    <p>Technologies: HTML, CSS, JS</p>
+    <p>School: Flatiron School </p>
   </header>
-
-  <div class="container">
-    <div class="sidebar">
-      <select>
-        <option>Select an option</option>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option>Option 3</option>
-      </select>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
-        <li><a href="#">Link 5</a></li>
-      </ul>
+  <main>
+    <h1>Rick and morty API</h1>
+    <hr>
+    <input id="txtCharacter" class="finder-character" type="text" placeholder="Filter by character name">
+    <div id="containerCards" class="container-cards">             
     </div>
-    <div class="main">
-      <input type="text" id="searchInput" placeholder="Enter character name">
-      <button id="searchButton">Search</button>
-      <button id="clearButton">Clear</button>
-      <button id="randomButton">Random Character</button>
-
-      <div id="charactersContainer"></div>
-    </div>
-  </div>
-
-  <script src="app-script.js"></script>
+  </main>
+  <footer>
+    <a href="mailto:sssimanc@amazon.com">Contact to Sebastian Simancas</a>
+  </footer>
+  <script src="appScript.js"></script>
 </body>
 </html>
-
-
-
-
-
