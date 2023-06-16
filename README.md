@@ -11,7 +11,7 @@
 
  This project shows how to use an API
 
- API: Rick and Morty API. [https://rickandmortyapi.com/documentation]
+ API: Rick and Morty API. https://rickandmortyapi.com/documentation
 
  You will be able to get information either of a character or a list of character of this comic series.
  You can also filter characters by typing either a name or  part of it to get a filtered list. You just need to
